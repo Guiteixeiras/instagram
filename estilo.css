@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.junto {
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 32px auto 0;
+  max-width: 935px;
+  padding-bottom: 32px;
+  width: 100%;
+}
+
+.caixa {
+  position:absolute;
+  top: 50px;
+  left: 680px;
+  background-color: #FFF;
+  grid-column-end: 2;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  padding: 32px;
+  align-self: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.instagram {
+  cursor: pointer;
+  max-width: 100%;
+  display: block;
+}
+
+.login {
+
+  margin-top:8px;
+}
+
+.login .login1 {
+  padding: 5px;
+  align-items: center;
+  color: #8e8e8e;
+  color: rgba(var(--f52,142,142,142),1);
+  font-size: 12px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  pointer-events: none;
+  display: flex;
+  right: 0;
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  border-radius: 4px;
+}
+
+.login .senha{
+  padding: 5px;
+  align-items: center;
+  color: #8e8e8e;
+  color: rgba(var(--f52,142,142,142),1);
+  font-size: 12px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  pointer-events: none;
+  display: flex;
+  right: 0;
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  border-radius: 4px;
+}
+
+.login .azul {
+
+  padding: 10px 120px;
+  align-items: center;
+  background-color: #0095f6;
+  color: #FFF;
+  line-height: 25px;
+  overflow: hidden;
+  display: flex;
+  right: 0px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.ou {
+  margin: 20px 5px 30px;
+}
+
+.icon {
+  display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.face letrinha {
+  font-size: 30%;
+  color: #385185;
+}
+
+
+.esqueceu {
+    color: #00376b;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.caixa2 {
+    position:absolute;
+    top: 510px;
+    left: 680px;
+    background-color: #FFF;
+    grid-column-end: 2;
+    justify-content: center;
+    width: 350px;
+    height: 85px;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    align-self: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.obter {
+  position:absolute;
+  top: 595px;
+  left: 680px;
+  background-color: #FFF;
+  grid-column-end: 2;
+  justify-content: center;
+  width: 350px;
+  height: 40px;
+  align-items: center;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+  z-index: 10;
+}
+
+.imagem1 {
+  position: absolute;
+  top: 580px;
+  right: 510px;
+}
+
+.imagem2 {
+  position: absolute;
+  top: 630px;
+  right: 360px;
+}
+
+.tudo-geral {
+  position: relative;
+  top: 90px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#tudo2 {
+  list-style: none;
+  padding: 0%;
+  text-decoration: none;
+}
+
+#tudo2 li {
+  display:inline;
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  display:inline ;
+  flex-direction: row;
+  text-align: center;
+  margin: 5px;
+}
+
+#tudo3 li {
+  display:inline;
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  display:inline ;
+  flex-direction: row;
+  text-align: center;
+  margin: 5px;
+}
+
+#tudo4 li {
+  display:inline;
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  display:inline ;
+  flex-direction: row;
+  text-align: center;
+  margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .parte1 {
+    position: relative;
+    right: 600px;
+    width: 100%;
+    height: 100%;
+bottom: 40px;
+  }
+
+  .instalar imagem1 {
+  position: relative;
+  bottom: 150px;
+  }
+
+  .instalar imagem2 {
+    position: relative;
+    bottom: 150px;
+    }
+
+  .celular {
+    display:none;
+  }
+
+  .tudo-geral {
+    position: relative;
+    top: 650px;
+  }
+}
